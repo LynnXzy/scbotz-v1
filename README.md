@@ -13,7 +13,7 @@
 
 # Timdak work di termux!
 
-# Slow respon
+# Maaf kalo kebanyakan Gw bikin Enc
 
 ## Deploy to heroku
 
