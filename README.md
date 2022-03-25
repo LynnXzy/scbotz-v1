@@ -29,6 +29,7 @@ Heroku Buildpack
 Tutorial YouTube
 
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red)](https://youtu.be/DzNIL45qHaM)
+
 Ganti session lu di `'./RadBotZ.json'`
 
 ## settings 
@@ -55,8 +56,8 @@ global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Drz103/RadBot
-cd RadBot
+git clone https://github.com/LynnXzy/scbotz-v1
+cd scbotz-v1
 npm install
 npm update
 ```
