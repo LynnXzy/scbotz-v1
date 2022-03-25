@@ -29,6 +29,8 @@ Heroku Buildpack
 Tutorial YouTube
 
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red)](https://youtu.be/DzNIL45qHaM)
+## settings
+Ganti session lu di '/RadBotZ.json'
 
 ## settings 
 Edit Nomor Owner DLL `'./config.js'`
