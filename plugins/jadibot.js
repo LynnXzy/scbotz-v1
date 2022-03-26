@@ -73,6 +73,6 @@ handler.command = /^jadibot$/i
 handler.premium = false
 handler.private = true
 
-handler.limit = 30
+handler.limit = 5
 
 module.exports = handler
