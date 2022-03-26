@@ -13,8 +13,6 @@
 
 # Timdak work di termux!
 
-# Maaf kalo kebanyakan Gw bikin Enc
-
 ## Deploy to heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Drz103/RadBot)
@@ -71,6 +69,11 @@ node .
 ```
 
 ---------
+### LynnXzy stat
+![Ra Github stat](https://github-readme-stats.vercel.app/api?username=LynnXzy&theme=midnight-purple&show_icons=true) 
+
+![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=LynnXzy&theme=monokai)
+
 
 # My Sosial 
 - [Group ](https://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD) 
