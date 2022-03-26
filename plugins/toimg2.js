@@ -9,8 +9,8 @@ const anu = {
                         },
        message: {
                     documentMessage: {
-                    title: 'Hmm.jpeg', 
-                    jpegThumbnail: https://telegra.ph/file/a60af91a1c5b4e12967fd.jpg
+                    title: '© Toimg By LynnXzy', 
+                    jpegThumbnail: fs.readFileSync('./src/IMG-20220322-WA0026.jpg')
                           }
                         }
                       }
@@ -24,7 +24,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   if (/webp/.test(mime)) {
     out = await webp2png(media)
   }
-  await conn.sendFile(m.chat, out, 'out.png', 'Sudah jadi...', anu, false, { thumbnail: fs.readFileSync('./src/RadBot.png')})
+  await conn.sendFile(m.chat, out, 'out.png', 'Selesai...', anu, false, { thumbnail: fs.readFileSync('./src/RadBot.png')})
 }
 handler.help = ['toimg']
 handler.tags = ['sticker']
