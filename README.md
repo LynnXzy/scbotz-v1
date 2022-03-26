@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/c28ced67bbdd935c8f140.png" alt="LynnXzy🤸" width="200"/>
+<img src="https://telegra.ph/file/809410340f33f15544905.png" alt="LynnXzy🤸" width="200"/>
 
 
 <p align="center"> <a href="https://Lexxy24.github.io"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Created+By+LynXzy+Aowkwowkwkwkwk" alt="Lexxy Official" /> </a> </p>
