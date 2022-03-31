@@ -20,27 +20,21 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║│➸ *Ping:* ${neww - old} *ms*
 ║│➸ *Total user:* ${totalreg} *user*
 ║│➸ *Uptime:* ${uptime}
-║│
-║╭─❉〘 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 〙❉─
-║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁¹
-║│➸ https://tinyurl.com/y7xymnkd
-║│
-║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁²
-║│➸ https://tinyurl.com/yc92fva7
-║│
-║│ ${readMore}
-║╭─❉〘 𝐏𝐑𝐈𝐕𝐀𝐂𝐘 𝐁𝐎𝐓 〙❉─
-║│➸ *KAMI TIDAK BERTANGGUNG*
-║│➸ *JAWAB ATAS PENYALAH*
-║│➸ *GUNAAN BOT*
-║│➸ *KAMI TIDAK BERTANGGUNG*
-║│➸ *JAWAB ATAS KEBOCORAN DATA*
-║│➸ *PRIBADI ANDA*
-║│➸ *KAMI AKAN MENYIMPAN DATA*
-║│➸ *SEPERTI NOMER TELEPON*
-║│➸ *ANDA DI DATABASE KAMI*
-║╰─────────
-╰═════════════════`.trim()
+║╰──────────────────
+╰══════════════════════
+╭══════════════════════
+║╭─❉〘 PRIVACY BOT 〙❉─
+║│➸ Kami Tidak Bertanggung
+║│➸ Atas Penyalahan 
+║│➸ Gunaan Bot
+║│➸ Kami Tidak Bertanggung
+║│➸ Jawab Atas Kebocoran Data
+║│➸ Pribadi Anda
+║│➸ Kami Akan Menyimpan
+║│➸ Nomer Telefon
+║│➸ Anda di database kami
+║╰─────────────────
+╰══════════════════════`.trim()
      await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©LynXzy💌', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['infobot']
