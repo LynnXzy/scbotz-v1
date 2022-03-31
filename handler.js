@@ -544,8 +544,8 @@ module.exports = {
           let groupMetadata = await this.groupMetadata(jid)
           for (let user of participants) {
             // let pp = './src/avatar_contact.png'
-            let pp = './src/RadBotZ.jpg'
-            let ppgc = './src/RadBotZ.jpg'
+            let pp = './src/IMG-20220322-WA0026.jpg'
+            let ppgc = './src/IMG-20220322-WA0026.jpg'
             try {
               pp = await uploadImage(await (await fetch(await this.getProfilePicture(user))).buffer())
               ppgc = await uploadImage(await (await fetch(await this.getProfilePicture(jid))).buffer())
@@ -648,12 +648,12 @@ global.dfail = (type, m, conn) => {
   }[type]
   if (owr) return conn.sendSticker(m.chat, 'https://telegra.ph/file/2848948d64ea43302c882.png', m ,{sendEphemeral: true})
   let msg = {
-    owner: 'Khusus owner kak',
+    owner: 'Khusus owner',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Khusus premium kak',
-    group: 'Perintah ini hanya dapat digunakan di grup!',
+    premium: 'Khusus premium',
+    group: 'Fitur ini untuk di Group',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Khusus Admin group kak',
+    admin: 'Khusus Admin group',
     nsfw: 'Perintah ini hanya bisa diaktifkan oleh owner',
   }[type]
   if (msg) return conn.sendButton(m.chat, msg, watermark, 'OK', 'Nanii', m)
@@ -664,7 +664,7 @@ global.dfail = (type, m, conn) => {
   let unreg = {
     unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar LynXzy.16*`
   }[type]
-  if (unreg) return conn.sendButton(m.chat, `Halo kak ${name} Sebelum menggunakan fitur ini Harap Verify Terlebih dahulu`, watermark, 'Verify', `#daftar ${name}.17`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `©LynXzy_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/93278eaa12fd253a4fe3cc08a0b219bc.jpg')}}})
+  if (unreg) return conn.sendButton(m.chat, `Haii ${name} 👋 Sebelum menggunakan bot ini Harap Verify Terlebih dahulu`, watermark, 'Verify', `#daftar ${name}.17`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `©LynnXzy💌_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/93278eaa12fd253a4fe3cc08a0b219bc.jpg')}}})
 }
 
 let chalk = require('chalk')
