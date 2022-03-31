@@ -24,9 +24,10 @@ let handler = async(m, { conn }) => {
         {title: '2 Minggu', description: "Rm10.00\nSewa bot 2 Minggu.", rowId:".masuk"},
         {title: '3 Minggu', description: "Rm15.00\nSewa bot 3 Minggu.", rowId:".masuk"},
         {title: '1 Bulan', description: "Rm20.00\nSewa bot 1 Bulan.", rowId:".masuk"},
+       {title: 'Ingin jadi premium?', description: "Chat owner.", rowId:".masuk"},
         {title: 'Trial', description: "Free\nBot Free 1 Hari.", rowId:".masuk"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
-        {title: 'Rules', description: "Rules Bot LynXzy.", rowId:".snk"},
+        {title: 'Rules', description: "Rules Bot LynnXzy.", rowId:".snk"},
        ] }],
         listType: 1
        }
