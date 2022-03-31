@@ -17,7 +17,7 @@ let handler = async(m, { conn, text }) => {
 handler.help = ['filmanime'].map(v => v + '<film>')
 handler.tags = ['internet', 'anime']
 
-handler.command = /^(filmanime)?$/i
+handler.command = /^(filmanime)$/i
 
 handler.limit = true
 
