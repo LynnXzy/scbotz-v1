@@ -571,7 +571,7 @@ module.exports = {
                 .setBackground("https://telegra.ph/file/89a6260f0a6720240e698.jpg")
                 .toAttachment()
 
-              this.sendButtonImg(jid, action === 'add' ? wel.toBuffer() : lea.toBuffer(), text, action === 'add' ? 'Welcome Message' : 'Leave Message', action === 'add' ? 'Welcome👋' : 'Byee👋',action === 'add' ? 'Welcome👋' : 'Byee👋', {
+              this.sendButtonImg(jid, action === 'add' ? wel.toBuffer() : lea.toBuffer(), text, action === 'add' ? 'Welcome Message' : 'Leave Message', action === 'add' ? 'Welcome beban🚬' : 'Alhamdullilah Beban Out🗿',action === 'add' ? 'Welcome Beban🚬' : 'Alhamdullilah Beban Out🗿', {
 key: {
 fromMe: false,
 participant: '0@s.whatsapp.net',
