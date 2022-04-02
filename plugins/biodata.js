@@ -4,9 +4,15 @@ let handler = async (m, { conn, text }) => {
 ╭══════════════════════
 ║╭─❉ *𝐁𝐈𝐎𝐃𝐀𝐓𝐀 𝐎𝐖𝐍𝐄𝐑* ❉─
 ║│➸ *Nama* : LannXzy🤸
+║│➸ *Jantina* : Lelaki
+║│➸ *Tempat Tinggal* :
+║│➸ Malaysia
+║│➸ *Agama* : Islam
 ║│➸ *Umur* : 15
-║│➸ *Kelas* :  9 SMP
+║│➸ *Kelas* : 9.Smp/Ting.3
 ║│➸ *Status* : males pcrn
+║│➸ *Hobi* : 
+║│➸ Anime,Futsal,Coding
 ║╰────────────────────
 ╰══════════════════════
 ╭══════════════════════
@@ -24,7 +30,7 @@ let handler = async (m, { conn, text }) => {
 _Oke segitu aja_
 
 `.trim()
-conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Biodata')).buffer(), ext, 'Sc By LynnXzy', 'Nomor Owner', '.owner', 'Donasi', '.donasi', 'Sewa Bot', '.sewa', m)
+conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Biodata')).buffer(), ext, 'Sc By LynnXzy💌', 'Nomor Owner👤', '.owner', 'Donasi💰', '.donasi', 'Sewa Bot🤖', '.sewa', m)
 
 }
 handler.help = ['infoowner', 'infocreator']
