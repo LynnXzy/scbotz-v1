@@ -10,8 +10,9 @@
 </p> 
 
 ---
+RECODE !!!!
 
-# Timdak work di termux!
+# Timdak work di termux!,
 
 ## Deploy to heroku
 
