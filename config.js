@@ -73,7 +73,7 @@ global.packname = sticker_name
 global.author = sticker_author
 
 // silakan di ganti klo mau
-global.wait = 'sticker/STK-20220410-WA0830.webp'
+global.wait = './sticker/STK-20220410-WA0830.webp'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/EheAWPrQMhV25xW0N7l7WD'
 global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = '_*Error*_'
