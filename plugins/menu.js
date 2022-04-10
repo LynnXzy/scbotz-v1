@@ -27,7 +27,8 @@ const defaultMenu = {
 ║│➸ Waktu: *%time*
 ║│➸ Uptime: *%uptime (%muptime)*
 ║│➸ Database: %rtotalreg dari %totalreg
-║│➸ Info : 🄻  = *Limit ( Tiket ) 🄿 = *Premium*
+║│➸ 🄻  = *Limit* 
+║│➸ 🄿 = *Premium*
 ║╰──────────────────
 ╰════════════════════
 %readmore`.trimStart(),
