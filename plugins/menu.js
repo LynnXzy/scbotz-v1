@@ -16,6 +16,8 @@ const defaultMenu = {
 ║│➸ Level 
 ║│➸ *%level (%exp / %maxexp)* [%xp4levelup]
 ║│➸ %totalexp XP secara Total
+║│➸ 🄻  = *Limit* 
+║│➸ 🄿 = *Premium*
 ║╰────────────────
 ╰══════════════════
 ╭══════════════════
@@ -27,8 +29,7 @@ const defaultMenu = {
 ║│➸ Waktu: *%time*
 ║│➸ Uptime: *%uptime (%muptime)*
 ║│➸ Database: %rtotalreg dari %totalreg
-║│➸ 🄻  = *Limit* 
-║│➸ 🄿 = *Premium*
+║│➸ Sc: github.com/LynnXzy/scbotz-v1
 ║╰──────────────────
 ╰════════════════════
 %readmore`.trimStart(),
